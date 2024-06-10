@@ -175,9 +175,9 @@ const workExperiences = {
   experience: [
     {
       role: "Community Field Experience",
-      company: "Aberdeen Hall",
+      company: "Aberdeen Hall Preparatory School",
       companylogo: require("./assets/images/aberdeen_hall.png"),
-      date: "June 2018 – Present",
+      date: "May 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -186,16 +186,16 @@ const workExperiences = {
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      company: "George Elliot Secondary",
+      companylogo: require("./assets/images/ge.png"),
+      date: "November 2023 - March 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      company: "Rutland Middle",
+      companylogo: require("./assets/images/rms.png"),
+      date: "",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
