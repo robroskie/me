@@ -26,7 +26,7 @@ const greeting = {
     "Welcome to my teaching portfolio, where my passion for education intersects with my dedication to integrating technology, promoting equal opportunity and access, and gamifying the classroom to enhance learning experiences."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1GGgk9-3zUVq218S4zKB0ZN8Dxn8G_T29/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Create engaging and interactive math and science lessons for students"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Utilize innovative technology and tools to enhance learning experiences in the classroom"),
     emoji(
-      "⚡ Integration of third pa4rty services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate educational resources and platforms such as Google Classroom, Khan Academy, and others to support student learning"
     )
   ],
 
@@ -130,10 +130,9 @@ const educationInfo = {
       logo: require("./assets/images/ubc_logo.png"),
       subHeader: "Bachelor of Education",
       duration: "September 2023 - December 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Math, Computer Science and General Science Teaching Specializations"
       ]
     },
     {
@@ -141,8 +140,9 @@ const educationInfo = {
       logo: require("./assets/images/ubc_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2020 - August 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "",
+      descBullets: ["Cumulative GPA: 4.0/4.3", 
+      "Dean’s List"]
     }
   ]
 };
@@ -153,17 +153,41 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Standard #1: Educators value and care for all students and act in their best interests.", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Standard #2: Educators are role models who act ethically and honestly.",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Standard #3: Educators understand and apply knowledge of student growth and development.",
       progressPercentage: "60%"
-    }
+    },
+    {
+      Stack: "Standard #4: Educators value the involvement and support of parents, guardians, families and communities in schools.",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Standard #5: Educators implement effective practices in areas of planning, instruction, assessment, evaluation and reporting.",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Standard #6: Educators have a broad knowledge base and understand the subject areas they teach.",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Standard #7: Educators engage in career-long learning.",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Standard #8: Educators contribute to the profession.",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Standard #9: Educators respect and value the history of First Nations, Inuit and Métis in Canada and the impact of the past on the present and the future. Educators contribute towards truth, reconciliation and healing.",
+      progressPercentage: "60%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -306,10 +330,10 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Pedagogical Stance",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -390,14 +414,15 @@ export {
   greeting,
   socialMediaLinks,
   splashScreen,
-  skillsSection,
+
   educationInfo,
   techStack,
   workExperiences,
+  blogSection,
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
+  skillsSection,
   talkSection,
   podcastSection,
   contactInfo,
