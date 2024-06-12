@@ -65,7 +65,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Education and knowledge",
+      skillName: "Knowledge acquisition",
       fontAwesomeClassname: "fas fa-apple-alt"
     },
     {
@@ -73,7 +73,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-laptop"
     },
     {
-      skillName: "Equal opportunity and access",
+      skillName: "Equal access",
       fontAwesomeClassname: "fas fa-universal-access"
     },
     {
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-users"
     },
     {
-      skillName: "Critical thinking and intellectual growth",
+      skillName: "Critical thinking",
       fontAwesomeClassname: "fas fa-brain"
     },
     {
@@ -332,20 +332,32 @@ const achievementSection = {
 const blogSection = {
   title: "Pedagogical Stance",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "My pedagogical stance is a continually evolving philosophy, rooted in the belief that as educators, we must be lifelong learners.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "Embracing Individuality",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "As I anticipate becoming a teacher, the most crucial lesson about knowing my learners is the recognition of their individuality. Each student brings a unique set of strengths, challenges, and backgrounds to the classroom. Understanding and appreciating this diversity is essential for tailoring my teaching approaches, creating an inclusive environment, and providing effective support to meet the diverse needs of every learner."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "",
+      title: "Connecting",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Building strong relationships, staying open to their perspectives, and continuously adapting my strategies based on their evolving needs will be key to fostering a positive and impactful learning experience for each student in my future classrooms."
+    },
+    {
+      url: "",
+      title: "Asdf",
+      description:
+        "asdf."
+    },
+    {
+      url: "",
+      title: "Asdf",
+      description:
+        "asdf."
     }
   ],
   display: true // Set false to hide this section, defaults to true
