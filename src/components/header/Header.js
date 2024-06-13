@@ -58,17 +58,12 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">Pedagogical Stance</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#talks">Practicum & Field Experiences</a>
             </li>
           )}
           {viewResume && (

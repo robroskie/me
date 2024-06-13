@@ -95,27 +95,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Robotics",
       fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Google Classroom",
+      fontAwesomeClassname: "fa-brands fa-google"
     }
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -198,11 +182,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Community Field Experience",
+      role: "Community Field Experience Placement",
       company: "Aberdeen Hall Preparatory School",
       companylogo: require("./assets/images/aberdeen_hall.png"),
       date: "May 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Click here to see final research report"
@@ -236,8 +220,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Practicum & Field Experiences",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
