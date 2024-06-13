@@ -144,39 +144,39 @@ const techStack = {
   experience: [
     {
       Stack: "Standard #1: Educators value and care for all students and act in their best interests.", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Standard #2: Educators are role models who act ethically and honestly.",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Standard #3: Educators understand and apply knowledge of student growth and development.",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Standard #4: Educators value the involvement and support of parents, guardians, families and communities in schools.",
-      progressPercentage: "60%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Standard #5: Educators implement effective practices in areas of planning, instruction, assessment, evaluation and reporting.",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Standard #6: Educators have a broad knowledge base and understand the subject areas they teach.",
-      progressPercentage: "60%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Standard #7: Educators engage in career-long learning.",
-      progressPercentage: "60%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Standard #8: Educators contribute to the profession.",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Standard #9: Educators respect and value the history of First Nations, Inuit and Métis in Canada and the impact of the past on the present and the future. Educators contribute towards truth, reconciliation and healing.",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -194,8 +194,8 @@ const workExperiences = {
       date: "May 2024",
       desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Click here to see final research report"
+        "Taught Pre-calculus 11",
+        "Assisted in a variety of math, science, and robotics courses across middle and high school grade levels"
       ]
     },
     {
@@ -203,7 +203,11 @@ const workExperiences = {
       company: "George Elliot Secondary",
       companylogo: require("./assets/images/ge.png"),
       date: "November 2023 - March 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Completed a two and then a six week practicums at this secondary school",
+        "Taught Science 10, Apprenticeship Math 12, and Foundations Math 10",
+
+      ]
     },
     {
       role: "In-situ Placements. Health and Wellness Seminar",
@@ -244,12 +248,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "",
+      projectDesc: "",
       footerLink: [
         {
           name: "Click to view",
-          url: "http://nextu.se/"
+          url: ""
         }
       ]
     }
