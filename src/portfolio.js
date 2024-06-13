@@ -1,5 +1,7 @@
 /* Change this file to get your personal Portfolio */
 
+import pdfCFEreport from "./assets/documents/inquiry_final.pdf";
+
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
@@ -99,6 +101,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Google Classroom",
       fontAwesomeClassname: "fa-brands fa-google"
+    },
+    {
+      skillName: "Inquiry Learning",
+      fontAwesomeClassname: "fas fa-question-circle"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -190,7 +196,7 @@ const workExperiences = {
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Click here to see final research report"
-      ],
+      ]
     },
     {
       role: "6-Week Practicum",
@@ -224,16 +230,17 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/robot.png"),
+      projectName: "Community Field Experience",
+      projectDesc: "Final report summarizing the answers I found to my inquiry questions through observations and research during the field experience",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Click to view",
+          url: ""
         }
         //  you can add extra buttons here.
-      ]
+      ],
+      pdfToDisplay: pdfCFEreport
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
@@ -241,7 +248,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Click to view",
           url: "http://nextu.se/"
         }
       ]

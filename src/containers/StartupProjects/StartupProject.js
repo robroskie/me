@@ -35,6 +35,7 @@ export default function StartupProject() {
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
               return (
+            
                 <div
                   key={i}
                   className={
@@ -43,6 +44,7 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
+                  <a href = {project.pdfToDisplay} target = "_blank">
                   {project.image ? (
                     <div className="project-image">
                       <img
@@ -51,6 +53,7 @@ export default function StartupProject() {
                         className="card-image"
                       ></img>
                     </div>
+                    
                   ) : null}
                   <div className="project-detail">
                     <h5
@@ -82,8 +85,11 @@ export default function StartupProject() {
                         })}
                       </div>
                     ) : null}
+                    
                   </div>
+                  </a>
                 </div>
+                
               );
             })}
           </div>
