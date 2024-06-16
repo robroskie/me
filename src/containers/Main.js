@@ -62,7 +62,7 @@ const Main = () => {
     
      
             <StackProgress />
-            <Achievement />
+            {/* <Achievement /> */}
             {/* <Talks /> */}
             {/* <Twitter /> */}
             {/* <Podcast /> */}

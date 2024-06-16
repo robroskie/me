@@ -214,7 +214,7 @@ const workExperiences = {
       company: "Rutland Middle",
       companylogo: require("./assets/images/rms.png"),
       date: "November 2023 and April 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "In progress."
     }
   ]
 };
@@ -344,15 +344,15 @@ const blogSection = {
     },
     {
       url: "",
-      title: "Asdf",
+      title: "In progress",
       description:
-        "asdf."
+        "In progress."
     },
     {
       url: "",
-      title: "Asdf",
+      title: "In progress",
       description:
-        "asdf."
+        "In progress."
     }
   ],
   display: true // Set false to hide this section, defaults to true
