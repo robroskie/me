@@ -206,7 +206,6 @@ const workExperiences = {
       descBullets: [
         "Completed a two and then a six week practicums at this secondary school",
         "Taught Science 10, Apprenticeship Math 12, and Foundations Math 10",
-
       ]
     },
     {
@@ -214,7 +213,10 @@ const workExperiences = {
       company: "Rutland Middle",
       companylogo: require("./assets/images/rms.png"),
       date: "November 2023 and April 2024",
-      desc: "In progress."
+      descBullets: [
+        "Introduced to teaching through co-teaching two comprehensive grammar lessons",
+        "Designed and led a wellness seminar on breathing exercises for stress reduction and improved mental health",
+      ]
     }
   ]
 };
