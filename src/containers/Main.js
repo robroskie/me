@@ -2,12 +2,12 @@ import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
-import StackProgress from "./skillProgress/skillProgress";
-import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
+import PersonalDevelopment from "./skillProgress/skillProgress";
+import Experience from "./workExperience/WorkExperience";
+import Practicums from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
+import PedagogicalStance from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
@@ -55,13 +55,13 @@ const Main = () => {
             <Skills />
 
             <Education />
-            <WorkExperience />
-            <Blogs />
-            <Projects />
+            <Experience />
+            <PedagogicalStance />
+            <Practicums />
             <StartupProject />
     
      
-            <StackProgress />
+            <PersonalDevelopment />
             {/* <Achievement /> */}
             {/* <Talks /> */}
             {/* <Twitter /> */}
