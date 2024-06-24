@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext} from "react";
 import "./Blog.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
-import {pedagogicalStance} from "../../portfolio";
+import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
@@ -21,7 +21,7 @@ export default function Blogs() {
       : NaN;
   }
   useEffect(() => {
-    if (pedagogicalStance.displayMediumBlogs === "true") {
+    if (blogSection.displayMediumBlogs === "true") {
       const getProfileData = () => {
         fetch("/blogs.json")
           .then(result => {
@@ -37,33 +37,33 @@ export default function Blogs() {
               `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
             );
             setMediumBlogsFunction("Error");
-            pedagogicalStance.displayMediumBlogs = "false";
+            blogSection.displayMediumBlogs = "false";
           });
       };
       getProfileData();
     }
   }, []);
-  if (!pedagogicalStance.display) {
+  if (!blogSection.display) {
     return null;
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
-          <h1 className="blog-header-text">{pedagogicalStance.title}</h1>
+          <h1 className="blog-header-text">{blogSection.title}</h1>
           <p
             className={
               isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
             }
           >
-            {pedagogicalStance.subtitle}
+            {blogSection.subtitle}
           </p>
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {pedagogicalStance.displayMediumBlogs !== "true" ||
+            {blogSection.displayMediumBlogs !== "true" ||
             mediumBlogs === "Error"
-              ? pedagogicalStance.blogs.map((blog, i) => {
+              ? blogSection.blogs.map((blog, i) => {
                   return (
                     <BlogCard
                       key={i}

@@ -326,7 +326,7 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
+const pedagogicalStance = {
   title: "Pedagogical Stance",
   subtitle:
     "My pedagogical stance is a continually evolving philosophy, rooted in the belief that as educators, we must be lifelong learners.",
@@ -427,7 +427,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  blogSection,
+  pedagogicalStance,
   openSource,
   bigProjects,
   achievementSection,

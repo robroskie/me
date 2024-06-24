@@ -8,7 +8,7 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
+  pedagogicalStance,
   talkSection,
   achievementSection,
   resumeSection,
@@ -21,7 +21,7 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
+  const viewBlog = pedagogicalStance.display;
   const viewTalks = talkSection.display;
   const viewPD = techStack.display;
 
