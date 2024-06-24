@@ -38,12 +38,6 @@ const socialMediaLinks = {
   github: "https://github.com/robroskie",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "LRoblesky@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -133,6 +127,14 @@ const educationInfo = {
       desc: "",
       descBullets: ["Cumulative GPA: 4.0/4.3", 
       "Dean’s List"]
+    },
+    {
+      schoolName: "SEE TEFL",
+      logo: require("./assets/images/see_tefl.jpg"),
+      subHeader: "120 Hour TEFL Certificate",
+      duration: "August 2015",
+      desc: "",
+      descBullets: ["Completed a 120-hour course covering pedagogical knowledge, practical teaching skills, and 16 key topics essential for novice EFL teachers."]
     }
   ]
 };
@@ -182,44 +184,7 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
 
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Community Field Experience Placement",
-      company: "Aberdeen Hall Preparatory School",
-      companylogo: require("./assets/images/aberdeen_hall.png"),
-      date: "May 2024",
-      desc: "",
-      descBullets: [
-        "Taught Pre-calculus 11",
-        "Assisted in a variety of math, science, and robotics courses across middle and high school grade levels"
-      ]
-    },
-    {
-      role: "6-Week Practicum",
-      company: "George Elliot Secondary",
-      companylogo: require("./assets/images/ge.png"),
-      date: "November 2023 - March 2024",
-      descBullets: [
-        "Completed a two and then a six week practicums at this secondary school",
-        "Taught Science 10, Apprenticeship Math 12, and Foundations Math 10",
-      ]
-    },
-    {
-      role: "In-situ Placements. Health and Wellness Seminar",
-      company: "Rutland Middle",
-      companylogo: require("./assets/images/rms.png"),
-      date: "November 2023 and April 2024",
-      descBullets: [
-        "Introduced to teaching through co-teaching two comprehensive grammar lessons",
-        "Designed and led a wellness seminar on breathing exercises for stress reduction and improved mental health",
-      ]
-    }
-  ]
-};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -324,7 +289,90 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
+
+// Coursework
+
+const courseWork = {
+  title: "Courses",
+  subtitle:
+    "In progress.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
+    {
+      url: "",
+      title: "Educ 403",
+      description:
+        "Introduced foundational knowledge in education from socio-cultural, philosophical, ethical, and historical perspectives. \n Learned essential educational principles from various perspectives, built a supportive learning community, and began considering my scholar-practitioner identity."
+    },
+    {
+      url: "",
+      title: "Educ 431",
+      description:
+        "Developed skills to critically analyze, interpret, and synthesize educational theories, including child/youth development, cognitive and social/emotional development, and diversity in education. Explored key concepts such as indigenous education, literacies and numeracies in action, and aims of education."
+    },
+    {
+      url: "",
+      title: "Educ 436",
+      description:
+        "In progress."
+    },
+    {
+      url: "",
+      title: "Educ 438",
+      description:
+        "In progress."
+    },
+    {
+      url: "",
+      title: "Educ 437",
+      description:
+        "In progress."
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Work experience section
+
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Community Field Experience Placement",
+      company: "Aberdeen Hall Preparatory School",
+      companylogo: require("./assets/images/aberdeen_hall.png"),
+      date: "May 2024",
+      desc: "",
+      descBullets: [
+        "Taught Pre-calculus 11",
+        "Assisted in a variety of math, science, and robotics courses across middle and high school grade levels"
+      ]
+    },
+    {
+      role: "6-Week Practicum",
+      company: "George Elliot Secondary",
+      companylogo: require("./assets/images/ge.png"),
+      date: "November 2023 - March 2024",
+      descBullets: [
+        "Completed a two and then a six week practicums at this secondary school",
+        "Taught Science 10, Apprenticeship Math 12, and Foundations Math 10",
+      ]
+    },
+    {
+      role: "In-situ Placements. Health and Wellness Seminar",
+      company: "Rutland Middle",
+      companylogo: require("./assets/images/rms.png"),
+      date: "November 2023 and April 2024",
+      descBullets: [
+        "Introduced to teaching through co-teaching two comprehensive grammar lessons",
+        "Designed and led a wellness seminar on breathing exercises for stress reduction and improved mental health",
+      ]
+    }
+  ]
+};
+
+
+// Pedagogical Stance
 
 const pedagogicalStance = {
   title: "Pedagogical Stance",
@@ -427,6 +475,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  courseWork,
   pedagogicalStance,
   openSource,
   bigProjects,

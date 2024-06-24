@@ -6,14 +6,11 @@ import PersonalDevelopment from "./skillProgress/skillProgress";
 import Experience from "./workExperience/WorkExperience";
 import Practicums from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
-import Achievement from "./achievement/Achievement";
 import PedagogicalStance from "./blogs/Blogs";
+import Courses from "./courses/Courses";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
@@ -53,19 +50,13 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
-
             <Education />
+            <Courses />
             <Experience />
             <PedagogicalStance />
             <Practicums />
             <StartupProject />
-    
-     
             <PersonalDevelopment />
-            {/* <Achievement /> */}
-            {/* <Talks /> */}
-            {/* <Twitter /> */}
-            {/* <Podcast /> */}
             <Profile />
             <Footer />
             <ScrollToTopButton />

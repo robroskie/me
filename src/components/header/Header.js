@@ -8,11 +8,8 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  pedagogicalStance,
   talkSection,
-  achievementSection,
-  resumeSection,
-  techStack
+  achievementSection
 } from "../../portfolio";
 
 function Header() {
@@ -21,9 +18,8 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = pedagogicalStance.display;
   const viewTalks = talkSection.display;
-  const viewPD = techStack.display;
+
 
 
   return (

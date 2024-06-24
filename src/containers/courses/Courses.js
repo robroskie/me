@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext} from "react";
-import "./Blog.scss";
+import "./Course.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
-import {blogSection} from "../../portfolio";
+import {courseWork} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
@@ -21,7 +21,7 @@ export default function Blogs() {
       : NaN;
   }
   useEffect(() => {
-    if (blogSection.displayMediumBlogs === "true") {
+    if (courseWork.displayMediumBlogs === "true") {
       const getProfileData = () => {
         fetch("/blogs.json")
           .then(result => {
@@ -37,33 +37,33 @@ export default function Blogs() {
               `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
             );
             setMediumBlogsFunction("Error");
-            blogSection.displayMediumBlogs = "false";
+            courseWork.displayMediumBlogs = "false";
           });
       };
       getProfileData();
     }
   }, []);
-  if (!blogSection.display) {
+  if (!courseWork.display) {
     return null;
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
-          <h1 className="blog-header-text">{blogSection.title}</h1>
+          <h1 className="blog-header-text">{courseWork.title}</h1>
           <p
             className={
               isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
             }
           >
-            {blogSection.subtitle}
+            {courseWork.subtitle}
           </p>
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.displayMediumBlogs !== "true" ||
+            {courseWork.displayMediumBlogs !== "true" ||
             mediumBlogs === "Error"
-              ? blogSection.blogs.map((blog, i) => {
+              ? courseWork.blogs.map((blog, i) => {
                   return (
                     <BlogCard
                       key={i}

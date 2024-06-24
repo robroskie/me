@@ -44,7 +44,7 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  <a href = {project.pdfToDisplay} target = "_blank">
+                  <a href = {project.pdfToDisplay} target = "_blank" rel="noopener noreferrer">
                   {project.image ? (
                     <div className="project-image">
                       <img
