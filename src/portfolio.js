@@ -212,17 +212,6 @@ const bigProjects = {
         //  you can add extra buttons here.
       ],
       pdfToDisplay: pdfCFEreport
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "",
-      projectDesc: "",
-      footerLink: [
-        {
-          name: "Click to view",
-          url: ""
-        }
-      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -314,19 +303,19 @@ const courseWork = {
       url: "",
       title: "Educ 436",
       description:
-        "In progress."
+        "Learned to design and implement curriculum across subjects, integrating Indigenous knowledge to create inclusive and engaging classrooms. Explored how historical, legal, and moral factors shape education, focusing on educational policy, law, and the impact of language teaching on curriculum decisions."
     },
     {
       url: "",
       title: "Educ 438",
       description:
-        "In progress."
+        "Explored the concept of educating the whole person within a liberal democracy, emphasizing physical, emotional, and intellectual well-being. Developed and critiqued innovative methods to promote well-being in educational settings, considering diverse cultural perspectives."
     },
     {
       url: "",
       title: "Educ 437",
       description:
-        "In progress."
+        "Developed skills to create learning environments centered around STEAM (Science, Technology, Engineering, Arts, Mathematics), emphasizing inductive learning, metaphor, analogy, and critical thinking across disciplines.  Explored the impact of professional, social, and governmental perspectives on curriculum, teaching, and learning, fostering inquiry, critical reflection, creativity, and innovation in the formation of democratic citizens."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -367,7 +356,27 @@ const workExperiences = {
         "Introduced to teaching through co-teaching two comprehensive grammar lessons",
         "Designed and led a wellness seminar on breathing exercises for stress reduction and improved mental health",
       ]
-    }
+    },
+    {
+      role: "Secondary Geometry Teacher",
+      company: "Saint Joseph Convent",
+      companylogo: require("./assets/images/sjc.jpg"),
+      date: "March 2016 and April 2017",
+      descBullets: [
+        "Effectively instructed three different class sections of grade 9 geometry within the English Program using American Curriculum",
+        "Responsible for designing course material, delivering lessons, classroom management and extra‑curricular activities",
+      ]
+    },
+    {
+      role: "ESL Teacher",
+      company: "Chonradsadornumrung (Chonchai) School",
+      companylogo: require("./assets/images/chon_chai.jpg"),
+      date: "November 2015 and February 2016",
+      descBullets: [
+        "Instructed English Communication Development to grade 7 and 8 ESL learners, delivering approximately 20 sections per week",
+        "Managed large class sizes of 50 students per section, which required me to employ creativity and variation to make the lessons fun and engaging",
+      ]
+    },
   ]
 };
 
@@ -388,21 +397,21 @@ const pedagogicalStance = {
     },
     {
       url: "",
-      title: "Connecting",
+      title: "Fostering Growth",
       description:
-        "Building strong relationships, staying open to their perspectives, and continuously adapting my strategies based on their evolving needs will be key to fostering a positive and impactful learning experience for each student in my future classrooms."
+        "Nurturing a growth mindset and encouraging resilience will empower students to embrace challenges as opportunities for learning and development. By fostering a supportive environment that values effort and progress, I aim to cultivate confident, motivated learners who are eager to explore and expand their capabilities."
     },
     {
       url: "",
-      title: "In progress",
+      title: "Engaging Curiosity",
       description:
-        "In progress."
+        "Stimulating curiosity through interactive and hands-on learning experiences will spark a passion for exploration and discovery among my students. By integrating creative activities and real-world connections into lessons, I strive to ignite their innate curiosity, encouraging them to ask questions, seek answers, and develop a lifelong love for learning."
     },
     {
       url: "",
-      title: "In progress",
+      title: "Integrating Technology",
       description:
-        "In progress."
+        "I believe in using technology to make learning more engaging and relevant for students. By incorporating educational apps, multimedia resources, and interactive tools into lessons, I aim to create a dynamic learning environment where students can collaborate, think critically, and develop digital skills. Embracing technology helps me personalize learning, keep students actively involved, and prepare them for success in today's digital world."
     }
   ],
   display: true // Set false to hide this section, defaults to true
