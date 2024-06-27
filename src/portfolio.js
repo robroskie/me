@@ -2,6 +2,7 @@
 
 import pdfCFEreport from "./assets/documents/inquiry_final.pdf";
 import psInfographic from "./assets/documents/ps_infographic.pdf";
+import healthFair from "./assets/documents/health_fair.pdf";
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -337,7 +338,8 @@ const workExperiences = {
       descBullets: [
         "Taught Pre-calculus 11",
         "Assisted in a variety of math, science, and robotics courses across middle and high school grade levels"
-      ]
+      ],
+      pdfToDisplay: "",
     },
     {
       role: "6-Week Practicum",
@@ -348,7 +350,8 @@ const workExperiences = {
         "Completed a two and then a six week practicums at this secondary school",
         "Taught Science 10, Apprenticeship Math 12, and Foundations Math 10",
          "Joined parent-teacher conferences, staff meetings, and meetings with ILT to evaluate the feasibility of creating a year-long math/woodworking combined class"
-      ]
+      ],
+      pdfToDisplay: "",
     },
     {
       role: "In-situ Placements. Health and Wellness Seminar",
@@ -358,7 +361,8 @@ const workExperiences = {
       descBullets: [
         "Introduced to teaching through co-teaching two comprehensive grammar lessons",
         "Designed and led a wellness seminar on breathing exercises for stress reduction and improved mental health",
-      ]
+      ],
+      pdfToDisplay: healthFair,
     },
     {
       role: "Secondary Geometry Teacher",
@@ -368,7 +372,8 @@ const workExperiences = {
       descBullets: [
         "Effectively instructed three different class sections of grade 9 geometry within the English Program using American Curriculum",
         "Responsible for designing course material, delivering lessons, classroom management and extra‑curricular activities",
-      ]
+      ],
+      pdfToDisplay: "",
     },
     {
       role: "ESL Teacher",
@@ -378,7 +383,8 @@ const workExperiences = {
       descBullets: [
         "Instructed English Communication Development to grade 7 and 8 ESL learners, delivering approximately 20 sections per week",
         "Managed large class sizes of 50 students per section, which required me to employ creativity and variation to make the lessons fun and engaging",
-      ]
+      ],
+      pdfToDisplay: "",
     },
   ]
 };

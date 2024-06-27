@@ -15,8 +15,11 @@ export default function WorkExperience() {
             <div>
               <h1 className="experience-heading">Experience</h1>
               <div className="experience-cards-div">
+              
                 {workExperiences.experience.map((card, i) => {
+                
                   return (
+                    // <a href = {workExperiences.experience.pdfToDisplay} target = "_blank" rel="noopener noreferrer">
                     <ExperienceCard
                       key={i}
                       isDark={isDark}
@@ -29,8 +32,12 @@ export default function WorkExperience() {
                         descBullets: card.descBullets
                       }}
                     />
+                      // </a>
                   );
+
                 })}
+                    
+  
               </div>
             </div>
           </div>
