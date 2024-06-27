@@ -293,7 +293,7 @@ const courseWork = {
       url: "",
       title: "Educ 403 - Becoming a Scholar-Practitioner",
       description:
-        "I explored the basics of education from different angles like culture, philosophy, ethics, and history. I learned key educational principles that create a supportive learning environment, and started thinking about my role of bringing academic research and theories into a practical setting as a scholar-practitioner."
+        "I explored the basics of education from different angles like culture, philosophy, ethics, and history. I began exploring my teacher identity using Swit Askwist. I learned key educational principles that create a supportive learning environment, and started thinking about my role of bringing academic research and theories into a practical setting as a scholar-practitioner."
     },
     {
       url: "",
@@ -347,6 +347,7 @@ const workExperiences = {
       descBullets: [
         "Completed a two and then a six week practicums at this secondary school",
         "Taught Science 10, Apprenticeship Math 12, and Foundations Math 10",
+         "Joined parent-teacher conferences, staff meetings, and meetings with ILT to evaluate the feasibility of creating a year-long math/woodworking combined class"
       ]
     },
     {
@@ -401,31 +402,31 @@ const pedagogicalStance = {
       url: "",
       title: "Building Relationships",
       description:
-        "Building strong, respectful relationships with students, colleagues, and parents is fundamental to a successful teaching career. By actively listening, showing empathy, and maintaining open communication, I aim to create a supportive and collaborative learning environment. Strong relationships foster trust and cooperation, enabling me to better understand and meet the needs of my students while also promoting a positive school community."
+        "Building strong, respectful relationships with students, colleagues, and parents is fundamental to a successful teaching career. By actively listening, showing empathy, and maintaining open communication, I aim to create a supportive and collaborative learning environment. Strong relationships build trust and cooperation, enabling me to better understand and meet the needs of my students while also promoting a positive school community."
     },
     {
       url: "",
       title: "Engaging Curiosity",
       description:
-        "Stimulating curiosity through interactive and hands-on learning experiences will spark a passion for exploration and discovery among my students. By integrating creative activities and real-world connections into lessons, I strive to ignite their innate curiosity, encouraging them to ask questions, seek answers, and develop a lifelong love for learning."
+        "I enjoy making learning fun and hands-on to get my students curious and excited. By mixing in creative activities and real-world connections, I aim to spark their natural curiosity. This way, they start asking questions, looking for answers, and hopefully, develop a lifelong love for learning."
     },
     {
       url: "",
       title: "Fostering Growth",
       description:
-        "Nurturing a growth mindset and encouraging resilience will empower students to embrace challenges as opportunities for learning and development. By fostering a supportive environment that values effort and progress, I aim to cultivate confident, motivated learners who are eager to explore and expand their capabilities."
+        "I believe in helping students develop a growth mindset and resilience so they see challenges as chances to learn and grow. By creating a supportive environment that celebrates effort and progress, I aim to build confident, motivated learners who are excited to explore new things."
     },
     {
       url: "",
       title: "Integrating Technology",
       description:
-        "I believe in using technology to make learning more engaging and relevant for students. By incorporating educational apps, multimedia resources, and interactive tools into lessons, I aim to create a dynamic learning environment where students can collaborate, think critically, and develop digital skills. Embracing technology helps me personalize learning, keep students actively involved, and prepare them for success in today's digital world."
+        "I think technology can make learning more fun and relevant for students. I like to use educational apps, videos, and interactive tools to create a lively classroom where students can work together, think critically, and build digital skills. Embracing technology helps me tailor lessons to each student, keep them engaged, and get them ready for success in today’s digital world."
     },
     {
       url: "",
       title: "Lifelong Learning",
       description:
-        "Consistently engaging in personal and professional development is vital throughout my teaching career. By staying current with educational research, attending workshops, and seeking feedback, I aim to continually refine my teaching practices. Embracing lifelong learning not only enhances my skills but also sets a positive example for my students, demonstrating the value of growth and improvement at every stage of life."
+        "I believe in always learning and growing as a teacher. Whether it's keeping up with new research, going to workshops, or getting feedback, I'm always looking to improve how I teach. Learning throughout my career not only makes me better at what I do but also shows my students that growing and getting better never stops—it's a lifelong journey."
     },
 
   ],
