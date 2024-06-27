@@ -25,7 +25,7 @@ const greeting = {
   username: "Luke Roblesky",
   title: "Hi all, I'm Luke",
   subTitle: emoji(
-    "Welcome to my teaching portfolio, where my passion for education intersects with my dedication to integrating technology, promoting equal opportunity and access, and gamifying the classroom to enhance learning experiences."
+    "Welcome to my teaching portfolio, where my passion for education intersects with my dedication to integrating technology, promoting equal opportunity and access, and gamifying the classroom to enhance learning experiences. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1GGgk9-3zUVq218S4zKB0ZN8Dxn8G_T29/view?usp=drive_link", // Set to empty to hide the button
@@ -36,7 +36,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/robroskie",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/robroskie/",
   gmail: "LRoblesky@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
@@ -44,7 +44,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Skills",
+  title: "Professional Identity",
   subTitle: "",
   skills: [
     emoji(
@@ -52,7 +52,7 @@ const skillsSection = {
     ),
     emoji("⚡ Utilize innovative technology and tools to enhance learning experiences in the classroom"),
     emoji(
-      "⚡ Integrate educational resources and platforms such as Google Classroom, Khan Academy, and others to support student learning"
+      "⚡ Integrate educational resources and platforms such as Kahoot, Quizizz and Gimkit and others to support student learning"
     )
   ],
 
@@ -397,9 +397,9 @@ const pedagogicalStance = {
     },
     {
       url: "",
-      title: "Fostering Growth",
+      title: "Building Relationships",
       description:
-        "Nurturing a growth mindset and encouraging resilience will empower students to embrace challenges as opportunities for learning and development. By fostering a supportive environment that values effort and progress, I aim to cultivate confident, motivated learners who are eager to explore and expand their capabilities."
+        "Building strong, respectful relationships with students, colleagues, and parents is fundamental to a successful teaching career. By actively listening, showing empathy, and maintaining open communication, I aim to create a supportive and collaborative learning environment. Strong relationships foster trust and cooperation, enabling me to better understand and meet the needs of my students while also promoting a positive school community."
     },
     {
       url: "",
@@ -409,10 +409,23 @@ const pedagogicalStance = {
     },
     {
       url: "",
+      title: "Fostering Growth",
+      description:
+        "Nurturing a growth mindset and encouraging resilience will empower students to embrace challenges as opportunities for learning and development. By fostering a supportive environment that values effort and progress, I aim to cultivate confident, motivated learners who are eager to explore and expand their capabilities."
+    },
+    {
+      url: "",
       title: "Integrating Technology",
       description:
         "I believe in using technology to make learning more engaging and relevant for students. By incorporating educational apps, multimedia resources, and interactive tools into lessons, I aim to create a dynamic learning environment where students can collaborate, think critically, and develop digital skills. Embracing technology helps me personalize learning, keep students actively involved, and prepare them for success in today's digital world."
-    }
+    },
+    {
+      url: "",
+      title: "Lifelong Learning",
+      description:
+        "Consistently engaging in personal and professional development is vital throughout my teaching career. By staying current with educational research, attending workshops, and seeking feedback, I aim to continually refine my teaching practices. Embracing lifelong learning not only enhances my skills but also sets a positive example for my students, demonstrating the value of growth and improvement at every stage of life."
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
