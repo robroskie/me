@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.41e647d0.css",
-    "main.js": "/me/static/js/main.16dc12f0.js",
+    "main.js": "/me/static/js/main.d2e48580.js",
     "static/css/64.bba8fa55.chunk.css": "/me/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/me/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/me/static/css/769.b3cbb36b.chunk.css",
@@ -16,7 +16,6 @@
     "static/media/ge.png": "/me/static/media/ge.158619e4ad4f83a2039d.png",
     "static/media/see_tefl.jpg": "/me/static/media/see_tefl.ad847e444d09ad17dd45.jpg",
     "static/media/contactMailDark.svg": "/me/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/developerActivity.svg": "/me/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/me/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/ubc_logo.png": "/me/static/media/ubc_logo.07dc7816cb00600829b1.png",
     "static/media/sjc.jpg": "/me/static/media/sjc.8a5b30422912c033e881.jpg",
@@ -25,7 +24,7 @@
     "static/media/pwaLogo.webp": "/me/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/me/index.html",
     "main.41e647d0.css.map": "/me/static/css/main.41e647d0.css.map",
-    "main.16dc12f0.js.map": "/me/static/js/main.16dc12f0.js.map",
+    "main.d2e48580.js.map": "/me/static/js/main.d2e48580.js.map",
     "64.bba8fa55.chunk.css.map": "/me/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/me/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/me/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.41e647d0.css",
-    "static/js/main.16dc12f0.js"
+    "static/js/main.d2e48580.js"
   ]
 }
