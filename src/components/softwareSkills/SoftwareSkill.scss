@@ -1,6 +1,14 @@
 @import "../../_globalColor";
 
+.software-skills-main-div{
+  display: flex;
+  justify-content: center;
+}
+
 .dev-icons {
+  // Added width
+  // width: 50%;
+  
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
@@ -12,7 +20,7 @@
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 }
 
 .software-skill-inline > i {
