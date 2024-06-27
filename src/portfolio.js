@@ -1,6 +1,7 @@
 /* Change this file to get your personal Portfolio */
 
 import pdfCFEreport from "./assets/documents/inquiry_final.pdf";
+import psInfographic from "./assets/documents/ps_infographic.pdf";
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -55,6 +56,7 @@ const skillsSection = {
       "⚡ Integrate educational resources and platforms such as Kahoot, Quizizz and Gimkit and others to support student learning"
     )
   ],
+  pdfToDisplay: psInfographic,
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -289,33 +291,33 @@ const courseWork = {
   blogs: [
     {
       url: "",
-      title: "Educ 403",
+      title: "Educ 403 - Becoming a Scholar-Practitioner",
       description:
-        "Introduced foundational knowledge in education from socio-cultural, philosophical, ethical, and historical perspectives. \n Learned essential educational principles from various perspectives, built a supportive learning community, and began considering my scholar-practitioner identity."
+        "I explored the basics of education from different angles like culture, philosophy, ethics, and history. I learned key educational principles that create a supportive learning environment, and started thinking about my role of bringing academic research and theories into a practical setting as a scholar-practitioner."
     },
     {
       url: "",
-      title: "Educ 431",
+      title: "Educ 431 - Developing a Pedagogical Stance",
       description:
-        "Developed skills to critically analyze, interpret, and synthesize educational theories, including child/youth development, cognitive and social/emotional development, and diversity in education. Explored key concepts such as indigenous education, literacies and numeracies in action, and aims of education."
+        "In this course, we dove into teaching basics and hands-on practice through discussions, seminars, and real-world learning. We developed our skills and understanding of diversity, literacy, numeracy, and different learning theories."
     },
     {
       url: "",
-      title: "Educ 436",
+      title: "Educ 436 - Developing Curricular Vision for a Democratic Society: Educational Purposes, Policies, and Practices, Part I",
       description:
         "Learned to design and implement curriculum across subjects, integrating Indigenous knowledge to create inclusive and engaging classrooms. Explored how historical, legal, and moral factors shape education, focusing on educational policy, law, and the impact of language teaching on curriculum decisions."
     },
     {
       url: "",
-      title: "Educ 438",
+      title: "Educ 438 - Educating for the Whole Person",
       description:
-        "Explored the concept of educating the whole person within a liberal democracy, emphasizing physical, emotional, and intellectual well-being. Developed and critiqued innovative methods to promote well-being in educational settings, considering diverse cultural perspectives."
+        "Explored the concept of educating the whole person within a liberal democracy, emphasizing physical, emotional, and intellectual well-being. Developed innovative methods to promote well-being in educational settings, considering diverse cultural perspectives."
     },
     {
       url: "",
-      title: "Educ 437",
+      title: "Educ 437 - Developing Curricular Vision for a Democratic Society: Educational Purposes, Policies, and Practices, Part 2",
       description:
-        "Developed skills to create learning environments centered around STEAM (Science, Technology, Engineering, Arts, Mathematics), emphasizing inductive learning, metaphor, analogy, and critical thinking across disciplines.  Explored the impact of professional, social, and governmental perspectives on curriculum, teaching, and learning, fostering inquiry, critical reflection, creativity, and innovation in the formation of democratic citizens."
+        "In this course, we explored how to integrate subjects like Science, Technology, Engineering, Arts, and Math in teaching. We focused on the importance of inquiry, critical reflection, creativity, and innovation in education."
     }
   ],
   display: true // Set false to hide this section, defaults to true
