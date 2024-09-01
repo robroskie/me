@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/me/static/css/main.99eddad4.css",
-    "main.js": "/me/static/js/main.9824dff2.js",
+    "main.js": "/me/static/js/main.de0265b2.js",
     "static/css/64.bba8fa55.chunk.css": "/me/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/me/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/me/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.36e0c86c.chunk.js": "/me/static/js/769.36e0c86c.chunk.js",
-    "static/media/inquiry_final.pdf": "/me/static/media/inquiry_final.857b75280ae20a5c917d.pdf",
+    "static/media/inquiry_final.pdf": "/me/static/media/inquiry_final.fe62013f5df6eb0bfa5f.pdf",
     "static/media/robot.png": "/me/static/media/robot.423f0cf7e208d3491bfa.png",
-    "static/media/health_fair.pdf": "/me/static/media/health_fair.b3e39d3f0716a1c705ed.pdf",
+    "static/media/health_fair.pdf": "/me/static/media/health_fair.29d212f458307a0d4ff6.pdf",
     "static/media/Montserrat-Regular.ttf": "/me/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/ps_infographic.pdf": "/me/static/media/ps_infographic.1c1542f5de12d693f501.pdf",
+    "static/media/ps_infographic.pdf": "/me/static/media/ps_infographic.b8fcdada2c5a93a474bf.pdf",
     "static/media/Agustina.woff": "/me/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/me/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/rms.png": "/me/static/media/rms.a9272ccb9e42661f03d5.png",
-    "static/media/resume.pdf": "/me/static/media/resume.767c7c11b3b54ab8118f.pdf",
+    "static/media/resume.pdf": "/me/static/media/resume.8153d21cdec0742de3ca.pdf",
     "static/media/ge.png": "/me/static/media/ge.158619e4ad4f83a2039d.png",
-    "static/media/see_tefl.jpg": "/me/static/media/see_tefl.ad847e444d09ad17dd45.jpg",
+    "static/media/see_tefl.jpg": "/me/static/media/see_tefl.ecf90aee2c4ae475e158.jpg",
     "static/media/contactMailDark.svg": "/me/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/googleAssistantLogo.webp": "/me/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/ubc_logo.png": "/me/static/media/ubc_logo.07dc7816cb00600829b1.png",
@@ -26,7 +26,7 @@
     "static/media/pwaLogo.webp": "/me/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/me/index.html",
     "main.99eddad4.css.map": "/me/static/css/main.99eddad4.css.map",
-    "main.9824dff2.js.map": "/me/static/js/main.9824dff2.js.map",
+    "main.de0265b2.js.map": "/me/static/js/main.de0265b2.js.map",
     "64.bba8fa55.chunk.css.map": "/me/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/me/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/me/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.99eddad4.css",
-    "static/js/main.9824dff2.js"
+    "static/js/main.de0265b2.js"
   ]
 }
