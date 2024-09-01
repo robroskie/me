@@ -287,7 +287,7 @@ const achievementSection = {
 const courseWork = {
   title: "Courses",
   subtitle:
-    "In progress.",
+    "9 / 10 program requirements completed.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -319,6 +319,12 @@ const courseWork = {
       title: "Educ 437 - Developing Curricular Vision for a Democratic Society: Educational Purposes, Policies, and Practices, Part 2",
       description:
         "In this course, we explored how to integrate subjects like Science, Technology, Engineering, Arts, and Math in teaching. We focused on the importance of inquiry, critical reflection, creativity, and innovation in education."
+    },
+    {
+      url: "",
+      title: "Educ 444 - Field Experience: Final Internship",
+      description:
+        "Gained extensive experience in a 14-week practicum by actively co-planning, teaching, and assessing with mentor teachers within learning community. Took on the role of full classroom teacher, planning and implementing curriculum with guidance from mentor teachers."
     }
   ],
   display: true // Set false to hide this section, defaults to true
